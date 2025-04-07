@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bahianita&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap');
+table{
+    border: .5px solid #C5C5C5; border-collapse: collapse; width: 75%; 
+}
+th{
+    color: #C5C5C5; text-transform: uppercase;
+}
+td, th{
+    text-align: left; padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #C5C5C5;
+}
+p{
+    border-radius: 10px;
+    border-width: 0px;
+    border-style: solid;
+}
+*{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
