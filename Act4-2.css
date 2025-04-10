@@ -1,0 +1,12 @@
+td, th{
+    text-align: left; padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #C5C5C5;
+}
+table{
+    border: .5px solid #C5C5C5; border-collapse: collapse; width: 75%; 
+}
+th{
+    color: #C5C5C5; text-transform: uppercase;
+}
