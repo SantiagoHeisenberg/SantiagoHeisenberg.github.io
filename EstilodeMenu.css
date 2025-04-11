@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bahianita&family=Rubik+Dirt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bahianita&family=Pridi:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pridi",sans-serif;
+    color: black;
+  }
+  
+  body{
+    background-image: url(Breaking-Bad.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(75, 74, 74);
+  }
+  nav{
+    max-width: 950px;
+    margin: auto;
+    background-image: linear-gradient(
+      90deg,
+      rgb(86, 185, 118),
+      rgb(69, 137, 86),
+      rgb(31, 64, 21)
+    );
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  button{
+    border: 0;
+    background-image: linear-gradient(
+      150deg,
+      rgb(229, 176, 22),
+      rgb(233, 176, 33),
+      rgb(86, 63, 22)
+    );
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  button span{
+    background-color: rgba(233, 176, 33, 0.37);
+    padding: 16px 24px;
+    border-radius: 7px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  button:hover span{
+    background: none;
+    text-decoration: none;
+  }
+  button:active{
+    transform: scale(0.9);
+    text-decoration: none;
+  }
+  .menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color:antiquewhite;
+    text-decoration: none;
+  }
+.menu-horizontal > li:hover{
+    background-color: rgba(233, 176, 33, 0.575);
+    border-radius: 10px;
+    font-size: 25px;
+    transition: .3s;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal > li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgba(128, 128, 128, 0.384);
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+.card.border-success.mb-3{
+  background-color: white;
+    color: black;
+}
